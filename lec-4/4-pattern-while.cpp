@@ -1,27 +1,26 @@
 /*
 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-*/
+ *
+ * *
+ * * *
+ * * * *
+ * * * * *
+ */
 #include <iostream>
 using namespace std;
 int main()
 {
-    int i = 1, n, j;
+    int n, i = 1, j;
     cin >> n;
     while (i <= n)
     {
         j = 1;
-        while (j <= n)
+        while (j <= i)
         {
-            cout << j << " ";
-
+            cout << "*"
+                 << " ";
             j++;
         }
-
         cout << endl;
         i++;
     }
