@@ -16,5 +16,4 @@ int main()
         i = i + 1;
     }
     cout << "No is prime";
-    return 0;
 }

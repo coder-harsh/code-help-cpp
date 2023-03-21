@@ -11,10 +11,9 @@ int main()
         if (n % i == 0)
         {
             cout << "Given no is not prime";
-            return 0;
+            return 0; // 6 p returm m code execute bnd ho jayega
         }
         i = i + 1;
     }
     cout << "No is prime";
-    return 0;
 }
