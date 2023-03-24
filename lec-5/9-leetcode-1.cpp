@@ -1,4 +1,4 @@
-//
+// diff b/w product of digit of no to sum of digit of a number. but in leetcode it will work on binary no as n will be unsigned integer.
 #include <iostream>
 using namespace std;
 int main()
